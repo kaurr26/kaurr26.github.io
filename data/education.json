@@ -1,0 +1,16 @@
+{
+  "sectionTitle": "Education",
+  "education": [
+    {
+      "degree": "Master of Science",
+      "institution": "Monroe University, New York",
+      "period": "",
+      "description": "Master of Science in Data Analytics",
+      "achievements": [],
+      "color": "#667eea",
+      "icon": "fas fa-graduation-cap"
+    }
+  ],
+  "certificationsTitle": "Certifications & Awards",
+  "certifications": []
+}

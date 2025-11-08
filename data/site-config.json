@@ -1,0 +1,13 @@
+{
+  "title": "RAJVINDER KAUR DADIALA - Professional Portfolio",
+  "description": "Professional portfolio showcasing my work and experience",
+  "author": "RAJVINDER KAUR DADIALA",
+  "keywords": "Data Cleaning, Data Wrangling, Dashboarding, Trend Analysis, KPI Reporting, Critical Thinking, Stakeholder Communication, Process Optimization, Collaboration, Python, Pandas, NumPy, Matplotlib, MS Excel, Power BI, Tableau, Google Sheets, ServiceNow, SQL Server, MySQL, SQL, Excel",
+  "ogImage": "/assets/images/og-image.jpg",
+  "favicon": "/assets/images/favicon.ico",
+  "theme": {
+    "primaryColor": "#3b82f6",
+    "secondaryColor": "#8b5cf6",
+    "accentColor": "#ec4899"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "sectionTitle": "Skills & Technologies",
+  "categories": [
+    {
+      "category": "Technical Skills",
+      "icon": "fas fa-code",
+      "color": "#667eea",
+      "skills": [
+        "Data Cleaning",
+        "Data Wrangling",
+        "Dashboarding",
+        "Trend Analysis",
+        "KPI Reporting",
+        "Critical Thinking",
+        "Stakeholder Communication",
+        "Process Optimization",
+        "Collaboration"
+      ]
+    },
+    {
+      "category": "Tools & Frameworks",
+      "icon": "fas fa-tools",
+      "color": "#764ba2",
+      "skills": [
+        "MS Excel",
+        "Power BI",
+        "Tableau",
+        "Google Sheets",
+        "ServiceNow",
+        "SQL Server",
+        "MySQL"
+      ]
+    }
+  ]
+}

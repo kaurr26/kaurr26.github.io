@@ -1,0 +1,63 @@
+{
+  "sectionTitle": "Work Experience",
+  "experiences": [
+    {
+      "title": "Junior Data Analyst",
+      "company": "Fullstack Labs",
+      "location": "Indianapolis, IN (Remote)",
+      "period": "Aug 2025 – Present",
+      "type": "Full-time",
+      "color": "#667eea",
+      "icon": "fas fa-briefcase",
+      "description": "",
+      "responsibilities": [
+        "Collect, clean, and validate structured and unstructured datasets to support analytical reporting and predictive modeling.",
+        "Build and maintain interactive dashboards and visualizations in Power BI to track operational KPIs and client project metrics.",
+        "Leverage SQL queries to extract business-critical insights from relational databases and automate recurring reporting workflows.",
+        "Collaborate cross-functionally with engineering and business teams to translate analytical findings into strategic process improvements."
+      ],
+      "technologies": [
+        "SQL",
+        "Excel",
+        "Power BI"
+      ]
+    },
+    {
+      "title": "Senior Analyst",
+      "company": "Accenture",
+      "location": "India",
+      "period": "Feb 2016 – Aug 2023",
+      "type": "Full-time",
+      "color": "#764ba2",
+      "icon": "fas fa-briefcase",
+      "description": "",
+      "responsibilities": [
+        "Spearheaded data-driven process improvement initiatives across multiple global client accounts, improving SLA compliance by 15%.",
+        "Designed and implemented Excel-based automation and reporting frameworks that reduced manual reporting time by 40%.",
+        "Conducted trend and variance analysis to identify performance bottlenecks and recommend optimization strategies.",
+        "Partnered with senior stakeholders to present data insights, performance dashboards, and operational forecasts supporting business continuity.",
+        "Mentored new analysts on data validation, reporting accuracy, and KPI tracking, enhancing team productivity and data reliability."
+      ],
+      "technologies": []
+    },
+    {
+      "title": "Client Support Analyst",
+      "company": "Zensar Technologies",
+      "location": "India",
+      "period": "Apr 2013 – Jan 2016",
+      "type": "Full-time",
+      "color": "#f093fb",
+      "icon": "fas fa-briefcase",
+      "description": "",
+      "responsibilities": [
+        "Managed client data requests, ensuring high accuracy in report generation and service ticket analysis.",
+        "Supported daily and weekly MIS reporting, leveraging Excel and SQL queries for tracking performance and resolution trends.",
+        "Collaborated with cross-functional teams to identify recurring issues and contributed to root cause analysis for data anomalies."
+      ],
+      "technologies": [
+        "Excel",
+        "SQL"
+      ]
+    }
+  ]
+}

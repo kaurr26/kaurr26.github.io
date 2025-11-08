@@ -1,0 +1,106 @@
+{
+  "sectionTitle": "Featured Projects",
+  "projects": [
+    {
+      "title": "customer-trends-data-analysis-sql-python-powerbi",
+      "description": "Personal development project using industry best practices",
+      "color": "#667eea",
+      "icon": "fab fa-github",
+      "technologies": [
+        "Jupyter Notebook"
+      ],
+      "keyFeatures": [],
+      "projectType": "",
+      "highlight": "",
+      "links": {
+        "github": "https://github.com/kaurr26/customer-trends-data-analysis-sql-python-powerbi",
+        "demo": ""
+      },
+      "stats": {
+        "stars": 0,
+        "forks": 0,
+        "language": "Jupyter Notebook"
+      }
+    },
+    {
+      "title": "ibm-hr-analytics-employee-attrition-and-performance-prediction",
+      "description": "Portfolio project showcasing development capabilities",
+      "color": "#764ba2",
+      "icon": "fab fa-github",
+      "technologies": [
+        "Jupyter Notebook"
+      ],
+      "keyFeatures": [],
+      "projectType": "",
+      "highlight": "",
+      "links": {
+        "github": "https://github.com/kaurr26/ibm-hr-analytics-employee-attrition-and-performance-prediction",
+        "demo": ""
+      },
+      "stats": {
+        "stars": 0,
+        "forks": 0,
+        "language": "Jupyter Notebook"
+      }
+    },
+    {
+      "title": "remote-work-productivity",
+      "description": "Analysis of the impact of remote work on employee productivity using real-world data. Includes data cleaning, exploratory data analysis, and predictive modeling using Python. Dataset sourced from Kaggle.",
+      "color": "#f093fb",
+      "icon": "fab fa-github",
+      "technologies": [
+        "Python"
+      ],
+      "keyFeatures": [],
+      "projectType": "",
+      "highlight": "",
+      "links": {
+        "github": "https://github.com/kaurr26/remote-work-productivity",
+        "demo": ""
+      },
+      "stats": {
+        "stars": 0,
+        "forks": 0,
+        "language": "Python"
+      }
+    },
+    {
+      "title": "call-center-performance-analytics-dashboard",
+      "description": "Learning project built with modern web technologies",
+      "color": "#4facfe",
+      "icon": "fab fa-github",
+      "technologies": [],
+      "keyFeatures": [],
+      "projectType": "",
+      "highlight": "",
+      "links": {
+        "github": "https://github.com/kaurr26/call-center-performance-analytics-dashboard",
+        "demo": ""
+      },
+      "stats": {
+        "stars": 0,
+        "forks": 0,
+        "language": ""
+      }
+    },
+    {
+      "title": "pydata-book",
+      "description": "Practice repository for exploring advanced features",
+      "color": "#667eea",
+      "icon": "fab fa-github",
+      "technologies": [],
+      "keyFeatures": [],
+      "projectType": "",
+      "highlight": "",
+      "links": {
+        "github": "https://github.com/kaurr26/pydata-book",
+        "demo": ""
+      },
+      "stats": {
+        "stars": 0,
+        "forks": 0,
+        "language": ""
+      }
+    }
+  ]
+}
