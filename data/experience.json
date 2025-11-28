@@ -18,8 +18,9 @@
       ],
       "technologies": [
         "SQL",
-        "Excel",
-        "Power BI"
+        "Python",
+        "Power BI",
+        "Excel"
       ]
     },
     {
@@ -38,7 +39,12 @@
         "Partnered with senior stakeholders to present data insights, performance dashboards, and operational forecasts supporting business continuity.",
         "Mentored new analysts on data validation, reporting accuracy, and KPI tracking, enhancing team productivity and data reliability."
       ],
-      "technologies": []
+      "technologies": [
+        "Excel",
+        "Data Analysis",
+        "KPI Reporting",
+        "Process Optimization"
+      ]
     },
     {
       "title": "Client Support Analyst",

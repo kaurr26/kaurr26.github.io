@@ -1,26 +1,27 @@
 {
   "sectionTitle": "About Me",
   "paragraphs": [
-    "I am a passionate developer with a strong background in building innovative solutions."
+    "Results-driven Data Analyst with a strong foundation in data analytics, reporting, and business operations, combining analytical acumen with over 8 years of corporate experience in service delivery and process optimization.",
+    "Skilled in leveraging SQL, Excel, and Python to extract insights, automate workflows, and support data-driven decision-making. Adept at collaborating across teams to design dashboards, validate data accuracy, and translate complex information into clear business solutions."
   ],
   "statistics": [
     {
       "icon": "fas fa-briefcase",
       "color": "#667eea",
-      "value": "3+",
+      "value": "8+",
       "label": "Years Experience"
     },
     {
-      "icon": "fas fa-project-diagram",
+      "icon": "fas fa-building",
       "color": "#764ba2",
-      "value": "5+",
-      "label": "Projects"
+      "value": "3",
+      "label": "Companies"
     },
     {
-      "icon": "fas fa-code",
+      "icon": "fas fa-chart-line",
       "color": "#f093fb",
-      "value": "22+",
-      "label": "Technologies"
+      "value": "15%",
+      "label": "SLA Improvement"
     }
   ],
   "downloadCV": {

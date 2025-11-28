@@ -2,18 +2,25 @@
   "sectionTitle": "Featured Projects",
   "projects": [
     {
-      "title": "customer-trends-data-analysis-sql-python-powerbi",
-      "description": "Personal development project using industry best practices",
+      "title": "Uber Data Engineering Project",
+      "description": "End-to-end data engineering pipeline using Mage for ETL orchestration. Processes and transforms Uber trip data for analytics, demonstrating modern data engineering practices and workflow automation.",
       "color": "#667eea",
-      "icon": "fab fa-github",
+      "icon": "fas fa-car",
       "technologies": [
+        "Python",
+        "Mage",
+        "ETL",
         "Jupyter Notebook"
       ],
-      "keyFeatures": [],
-      "projectType": "",
-      "highlight": "",
+      "keyFeatures": [
+        "ETL pipeline design",
+        "Data orchestration",
+        "Workflow automation"
+      ],
+      "projectType": "Data Engineering",
+      "highlight": "Modern ETL pipeline",
       "links": {
-        "github": "https://github.com/kaurr26/customer-trends-data-analysis-sql-python-powerbi",
+        "github": "https://github.com/kaurr26/uber-data-engineering-mage-project",
         "demo": ""
       },
       "stats": {
@@ -23,16 +30,107 @@
       }
     },
     {
-      "title": "ibm-hr-analytics-employee-attrition-and-performance-prediction",
-      "description": "Portfolio project showcasing development capabilities",
+      "title": "Sentiment Analysis Web App (SageMaker)",
+      "description": "Machine learning web application for sentiment analysis deployed using AWS SageMaker. Classifies text sentiment using NLP techniques and cloud-based ML infrastructure.",
       "color": "#764ba2",
-      "icon": "fab fa-github",
+      "icon": "fas fa-cloud",
       "technologies": [
+        "Python",
+        "AWS SageMaker",
+        "NLP",
+        "Machine Learning"
+      ],
+      "keyFeatures": [
+        "Cloud ML deployment",
+        "NLP sentiment analysis",
+        "Web application"
+      ],
+      "projectType": "Machine Learning",
+      "highlight": "AWS cloud deployment",
+      "links": {
+        "github": "https://github.com/kaurr26/sentiment-analysis-webapp-sagemaker",
+        "demo": ""
+      },
+      "stats": {
+        "stars": 0,
+        "forks": 0,
+        "language": "Jupyter Notebook"
+      }
+    },
+    {
+      "title": "Retail Data Analytics (Python-SQL Integration)",
+      "description": "Comprehensive retail analytics project integrating Python and SQL for data analysis. Explores sales patterns, inventory management, and customer behavior using combined programming approaches.",
+      "color": "#f093fb",
+      "icon": "fas fa-shopping-cart",
+      "technologies": [
+        "Python",
+        "SQL",
+        "Pandas",
+        "Data Analysis"
+      ],
+      "keyFeatures": [
+        "Python-SQL integration",
+        "Retail analytics",
+        "Sales pattern analysis"
+      ],
+      "projectType": "Data Analytics",
+      "highlight": "Integrated analytics approach",
+      "links": {
+        "github": "https://github.com/kaurr26/retail-data-analytics-project-python-sql-integration",
+        "demo": ""
+      },
+      "stats": {
+        "stars": 0,
+        "forks": 0,
+        "language": "Jupyter Notebook"
+      }
+    },
+    {
+      "title": "Online Grocery Retail - Prediction & Recommendation",
+      "description": "Predictive modeling and recommendation system for online grocery retail. Analyzes customer purchase patterns to predict future orders and provide personalized product recommendations.",
+      "color": "#4facfe",
+      "icon": "fas fa-store",
+      "technologies": [
+        "Python",
+        "Machine Learning",
+        "Recommendation Systems",
         "Jupyter Notebook"
       ],
-      "keyFeatures": [],
-      "projectType": "",
-      "highlight": "",
+      "keyFeatures": [
+        "Purchase prediction",
+        "Recommendation engine",
+        "Customer behavior analysis"
+      ],
+      "projectType": "Machine Learning",
+      "highlight": "Recommendation system",
+      "links": {
+        "github": "https://github.com/kaurr26/online-grocery-retail---prediction-and-recommendation",
+        "demo": ""
+      },
+      "stats": {
+        "stars": 0,
+        "forks": 0,
+        "language": "Jupyter Notebook"
+      }
+    },
+    {
+      "title": "IBM HR Analytics - Employee Attrition Prediction",
+      "description": "Predictive modeling project analyzing employee attrition factors and performance metrics using machine learning. Identifies key drivers of employee turnover and predicts at-risk employees to support HR decision-making.",
+      "color": "#00f2fe",
+      "icon": "fas fa-users",
+      "technologies": [
+        "Python",
+        "Pandas",
+        "Scikit-learn",
+        "Jupyter Notebook"
+      ],
+      "keyFeatures": [
+        "Predictive modeling",
+        "Feature engineering",
+        "HR analytics insights"
+      ],
+      "projectType": "Machine Learning",
+      "highlight": "Employee retention insights",
       "links": {
         "github": "https://github.com/kaurr26/ibm-hr-analytics-employee-attrition-and-performance-prediction",
         "demo": ""
@@ -44,16 +142,51 @@
       }
     },
     {
-      "title": "remote-work-productivity",
-      "description": "Analysis of the impact of remote work on employee productivity using real-world data. Includes data cleaning, exploratory data analysis, and predictive modeling using Python. Dataset sourced from Kaggle.",
-      "color": "#f093fb",
-      "icon": "fab fa-github",
+      "title": "Customer Churn Prediction",
+      "description": "Machine learning model to predict customer churn using historical data. Implements classification algorithms to identify customers likely to leave, enabling proactive retention strategies.",
+      "color": "#667eea",
+      "icon": "fas fa-user-minus",
       "technologies": [
-        "Python"
+        "Python",
+        "Machine Learning",
+        "Pandas",
+        "Scikit-learn"
       ],
-      "keyFeatures": [],
-      "projectType": "",
-      "highlight": "",
+      "keyFeatures": [
+        "Churn prediction model",
+        "Customer segmentation",
+        "Retention analysis"
+      ],
+      "projectType": "Machine Learning",
+      "highlight": "Predictive customer analytics",
+      "links": {
+        "github": "https://github.com/kaurr26/customer-churn-prediction",
+        "demo": ""
+      },
+      "stats": {
+        "stars": 0,
+        "forks": 0,
+        "language": "Python"
+      }
+    },
+    {
+      "title": "Remote Work Productivity Analysis",
+      "description": "Analysis of the impact of remote work on employee productivity using real-world Kaggle data. Includes comprehensive data cleaning, exploratory data analysis, statistical hypothesis testing, and predictive modeling.",
+      "color": "#764ba2",
+      "icon": "fas fa-laptop-house",
+      "technologies": [
+        "Python",
+        "Pandas",
+        "Matplotlib",
+        "Statistical Analysis"
+      ],
+      "keyFeatures": [
+        "Exploratory data analysis",
+        "Statistical hypothesis testing",
+        "Productivity metrics"
+      ],
+      "projectType": "Data Analysis",
+      "highlight": "Real-world business insights",
       "links": {
         "github": "https://github.com/kaurr26/remote-work-productivity",
         "demo": ""
@@ -65,41 +198,30 @@
       }
     },
     {
-      "title": "call-center-performance-analytics-dashboard",
-      "description": "Learning project built with modern web technologies",
-      "color": "#4facfe",
-      "icon": "fab fa-github",
-      "technologies": [],
-      "keyFeatures": [],
-      "projectType": "",
-      "highlight": "",
+      "title": "Anomaly Detection",
+      "description": "Implementation of anomaly detection algorithms to identify unusual patterns and outliers in datasets. Useful for fraud detection, system monitoring, and quality control applications.",
+      "color": "#f093fb",
+      "icon": "fas fa-exclamation-triangle",
+      "technologies": [
+        "Python",
+        "Jupyter Notebook",
+        "Machine Learning"
+      ],
+      "keyFeatures": [
+        "Outlier detection",
+        "Pattern recognition",
+        "Data quality analysis"
+      ],
+      "projectType": "Machine Learning",
+      "highlight": "Anomaly detection algorithms",
       "links": {
-        "github": "https://github.com/kaurr26/call-center-performance-analytics-dashboard",
+        "github": "https://github.com/kaurr26/anomaly-detection",
         "demo": ""
       },
       "stats": {
         "stars": 0,
         "forks": 0,
-        "language": ""
-      }
-    },
-    {
-      "title": "pydata-book",
-      "description": "Practice repository for exploring advanced features",
-      "color": "#667eea",
-      "icon": "fab fa-github",
-      "technologies": [],
-      "keyFeatures": [],
-      "projectType": "",
-      "highlight": "",
-      "links": {
-        "github": "https://github.com/kaurr26/pydata-book",
-        "demo": ""
-      },
-      "stats": {
-        "stars": 0,
-        "forks": 0,
-        "language": ""
+        "language": "Jupyter Notebook"
       }
     }
   ]

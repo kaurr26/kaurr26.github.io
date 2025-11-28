@@ -2,15 +2,34 @@
   "sectionTitle": "Education",
   "education": [
     {
-      "degree": "Master of Science",
+      "degree": "Master of Science in Data Analytics",
       "institution": "Monroe University, New York",
-      "period": "",
-      "description": "Master of Science in Data Analytics",
+      "period": "Aug 2025",
+      "description": "Advanced coursework in data analytics, statistical modeling, and business intelligence.",
       "achievements": [],
       "color": "#667eea",
       "icon": "fas fa-graduation-cap"
     }
   ],
-  "certificationsTitle": "Certifications & Awards",
-  "certifications": []
+  "certificationsTitle": "Certifications",
+  "certifications": [
+    {
+      "name": "Google Data Analytics Professional Certificate",
+      "issuer": "Google",
+      "color": "#4285F4",
+      "icon": "fab fa-google"
+    },
+    {
+      "name": "Excel for Business - Advanced",
+      "issuer": "Microsoft",
+      "color": "#217346",
+      "icon": "fas fa-file-excel"
+    },
+    {
+      "name": "SQL for Data Analysis",
+      "issuer": "Professional Certification",
+      "color": "#f093fb",
+      "icon": "fas fa-database"
+    }
+  ]
 }

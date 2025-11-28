@@ -1,14 +1,19 @@
 {
-  "tagline": "Building the future, one line of code at a time.",
+  "tagline": "Transforming data into actionable insights, one analysis at a time.",
   "socialLinks": [
     {
       "url": "https://linkedin.com/in/rajvinderr",
       "platform": "LinkedIn",
       "icon": "fab fa-linkedin"
+    },
+    {
+      "url": "https://github.com/kaurr26",
+      "platform": "GitHub",
+      "icon": "fab fa-github"
     }
   ],
   "copyright": {
-    "text": "© 2025 RAJVINDER KAUR DADIALA. All rights reserved."
+    "text": "© 2025 Rajvinder Kaur Dadiala. All rights reserved."
   },
   "links": [
     {
