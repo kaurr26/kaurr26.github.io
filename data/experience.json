@@ -9,6 +9,7 @@
       "type": "Full-time",
       "color": "#667eea",
       "icon": "fas fa-briefcase",
+      "logo": "assets/images/fullstack-logo.svg",
       "description": "",
       "responsibilities": [
         "Collect, clean, and validate structured and unstructured datasets to support analytical reporting and predictive modeling.",
@@ -31,6 +32,7 @@
       "type": "Full-time",
       "color": "#764ba2",
       "icon": "fas fa-briefcase",
+      "logo": "assets/images/accenture-logo.svg",
       "description": "",
       "responsibilities": [
         "Spearheaded data-driven process improvement initiatives across multiple global client accounts, improving SLA compliance by 15%.",
@@ -54,6 +56,7 @@
       "type": "Full-time",
       "color": "#f093fb",
       "icon": "fas fa-briefcase",
+      "logo": "assets/images/zensar-logo.svg",
       "description": "",
       "responsibilities": [
         "Managed client data requests, ensuring high accuracy in report generation and service ticket analysis.",

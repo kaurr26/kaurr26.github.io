@@ -8,7 +8,8 @@
       "description": "Advanced coursework in data analytics, statistical modeling, and business intelligence.",
       "achievements": [],
       "color": "#667eea",
-      "icon": "fas fa-graduation-cap"
+      "icon": "fas fa-graduation-cap",
+      "logo": "assets/images/monroe-college-logo.svg"
     }
   ],
   "certificationsTitle": "Certifications",
@@ -17,19 +18,22 @@
       "name": "Google Data Analytics Professional Certificate",
       "issuer": "Google",
       "color": "#4285F4",
-      "icon": "fab fa-google"
+      "icon": "fab fa-google",
+      "image": "assets/images/google-logo.svg"
     },
     {
       "name": "Excel for Business - Advanced",
       "issuer": "Microsoft",
       "color": "#217346",
-      "icon": "fas fa-file-excel"
+      "icon": "fas fa-file-excel",
+      "image": "assets/images/microsoft-logo.svg"
     },
     {
       "name": "SQL for Data Analysis",
       "issuer": "Professional Certification",
       "color": "#f093fb",
-      "icon": "fas fa-database"
+      "icon": "fas fa-database",
+      "image": "assets/images/sql-logo.svg"
     }
   ]
 }

@@ -290,6 +290,27 @@ body {
     z-index: var(--z-base);
 }
 
+.hero-headshot {
+    margin-bottom: var(--spacing-lg);
+    animation: fadeInUp 0.6s ease;
+}
+
+.hero-headshot-img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid rgba(102, 126, 234, 0.5);
+    box-shadow: 0 0 30px rgba(102, 126, 234, 0.3), 0 0 60px rgba(118, 75, 162, 0.2);
+    transition: all var(--transition-normal);
+}
+
+.hero-headshot-img:hover {
+    transform: scale(1.05);
+    border-color: rgba(102, 126, 234, 0.8);
+    box-shadow: 0 0 40px rgba(102, 126, 234, 0.5), 0 0 80px rgba(118, 75, 162, 0.3);
+}
+
 .hero-greeting {
     font-size: var(--font-size-md);
     color: var(--color-text-muted);
@@ -664,6 +685,17 @@ body {
     z-index: 2;
 }
 
+.experience-logo {
+    margin-bottom: var(--spacing-md);
+    padding: var(--spacing-sm) 0;
+}
+
+.experience-logo-img {
+    max-width: 160px;
+    max-height: 40px;
+    object-fit: contain;
+}
+
 .experience-header {
     margin-bottom: var(--spacing-md);
 }
@@ -766,6 +798,21 @@ body {
     margin-bottom: var(--spacing-md);
 }
 
+.skill-category-icon-img {
+    width: 50px;
+    height: 50px;
+    border-radius: var(--radius-md);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skill-cat-img {
+    width: 36px;
+    height: 36px;
+    object-fit: contain;
+}
+
 .skill-category-icon {
     width: 50px;
     height: 50px;
@@ -796,6 +843,15 @@ body {
     font-size: var(--font-size-xs);
     color: var(--color-text-secondary);
     transition: all var(--transition-fast);
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.skill-tag-img {
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
 }
 
 .skill-tag:hover {
@@ -832,6 +888,19 @@ body {
     box-shadow: var(--shadow-xl);
 }
 
+.project-icon-wrapper {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    margin-bottom: var(--spacing-md);
+}
+
+.project-tech-img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
 .project-icon {
     width: 70px;
     height: 70px;
@@ -841,7 +910,6 @@ body {
     justify-content: center;
     font-size: var(--font-size-2xl);
     color: #fff;
-    margin-bottom: var(--spacing-md);
     background: var(--gradient-primary);
 }
 
@@ -957,6 +1025,16 @@ body {
     box-shadow: var(--shadow-xl);
 }
 
+.education-logo {
+    margin-bottom: var(--spacing-md);
+}
+
+.education-logo-img {
+    max-width: 240px;
+    max-height: 70px;
+    object-fit: contain;
+}
+
 .education-icon {
     width: 60px;
     height: 60px;
@@ -1031,6 +1109,18 @@ body {
     background: rgba(255, 255, 255, 0.05);
     border-color: rgba(255, 255, 255, 0.2);
     box-shadow: var(--shadow-lg);
+}
+
+.certification-image {
+    margin-bottom: var(--spacing-sm);
+    display: flex;
+    justify-content: center;
+}
+
+.certification-img {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
 }
 
 .certification-icon {

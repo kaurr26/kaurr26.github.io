@@ -6,6 +6,7 @@
       "description": "End-to-end data engineering pipeline using Mage for ETL orchestration. Processes and transforms Uber trip data for analytics, demonstrating modern data engineering practices and workflow automation.",
       "color": "#667eea",
       "icon": "fas fa-car",
+      "image": "assets/images/python-logo.svg",
       "technologies": [
         "Python",
         "Mage",
@@ -34,6 +35,7 @@
       "description": "Machine learning web application for sentiment analysis deployed using AWS SageMaker. Classifies text sentiment using NLP techniques and cloud-based ML infrastructure.",
       "color": "#764ba2",
       "icon": "fas fa-cloud",
+      "image": "assets/images/aws-logo.svg",
       "technologies": [
         "Python",
         "AWS SageMaker",
@@ -62,6 +64,7 @@
       "description": "Comprehensive retail analytics project integrating Python and SQL for data analysis. Explores sales patterns, inventory management, and customer behavior using combined programming approaches.",
       "color": "#f093fb",
       "icon": "fas fa-shopping-cart",
+      "image": "assets/images/sql-logo.svg",
       "technologies": [
         "Python",
         "SQL",
@@ -90,6 +93,7 @@
       "description": "Predictive modeling and recommendation system for online grocery retail. Analyzes customer purchase patterns to predict future orders and provide personalized product recommendations.",
       "color": "#4facfe",
       "icon": "fas fa-store",
+      "image": "assets/images/python-logo.svg",
       "technologies": [
         "Python",
         "Machine Learning",
@@ -118,6 +122,7 @@
       "description": "Predictive modeling project analyzing employee attrition factors and performance metrics using machine learning. Identifies key drivers of employee turnover and predicts at-risk employees to support HR decision-making.",
       "color": "#00f2fe",
       "icon": "fas fa-users",
+      "image": "assets/images/pandas-logo.svg",
       "technologies": [
         "Python",
         "Pandas",
@@ -146,6 +151,7 @@
       "description": "Machine learning model to predict customer churn using historical data. Implements classification algorithms to identify customers likely to leave, enabling proactive retention strategies.",
       "color": "#667eea",
       "icon": "fas fa-user-minus",
+      "image": "assets/images/python-logo.svg",
       "technologies": [
         "Python",
         "Machine Learning",
@@ -174,6 +180,7 @@
       "description": "Analysis of the impact of remote work on employee productivity using real-world Kaggle data. Includes comprehensive data cleaning, exploratory data analysis, statistical hypothesis testing, and predictive modeling.",
       "color": "#764ba2",
       "icon": "fas fa-laptop-house",
+      "image": "assets/images/matplotlib-logo.svg",
       "technologies": [
         "Python",
         "Pandas",
@@ -202,6 +209,7 @@
       "description": "Implementation of anomaly detection algorithms to identify unusual patterns and outliers in datasets. Useful for fraud detection, system monitoring, and quality control applications.",
       "color": "#f093fb",
       "icon": "fas fa-exclamation-triangle",
+      "image": "assets/images/jupyter-logo.svg",
       "technologies": [
         "Python",
         "Jupyter Notebook",

@@ -5,58 +5,63 @@
       "category": "Tools & Platforms",
       "icon": "fas fa-tools",
       "color": "#667eea",
+      "image": "assets/images/tableau-logo.svg",
       "skills": [
-        "MS Excel (Advanced)",
-        "Power BI",
-        "Tableau",
-        "Google Sheets",
-        "ServiceNow"
+        { "name": "MS Excel (Advanced)", "image": "assets/images/excel-logo.svg" },
+        { "name": "Power BI", "image": "assets/images/powerbi-logo.svg" },
+        { "name": "Tableau", "image": "assets/images/tableau-logo.svg" },
+        { "name": "Google Sheets", "image": "assets/images/google-logo.svg" },
+        { "name": "ServiceNow", "image": "" }
       ]
     },
     {
       "category": "Databases",
       "icon": "fas fa-database",
       "color": "#764ba2",
+      "image": "assets/images/mysql-logo.svg",
       "skills": [
-        "SQL Server",
-        "MySQL",
-        "SQL Queries"
+        { "name": "SQL Server", "image": "assets/images/excel-logo.svg" },
+        { "name": "MySQL", "image": "assets/images/mysql-logo.svg" },
+        { "name": "SQL Queries", "image": "assets/images/sql-logo.svg" }
       ]
     },
     {
       "category": "Programming",
       "icon": "fas fa-code",
       "color": "#f093fb",
+      "image": "assets/images/python-logo.svg",
       "skills": [
-        "Python",
-        "Pandas",
-        "NumPy",
-        "Matplotlib"
+        { "name": "Python", "image": "assets/images/python-logo.svg" },
+        { "name": "Pandas", "image": "assets/images/pandas-logo.svg" },
+        { "name": "NumPy", "image": "assets/images/numpy-logo.svg" },
+        { "name": "Matplotlib", "image": "assets/images/matplotlib-logo.svg" }
       ]
     },
     {
       "category": "Data Techniques",
       "icon": "fas fa-chart-bar",
       "color": "#4facfe",
+      "image": "",
       "skills": [
-        "Data Cleaning",
-        "Data Wrangling",
-        "Dashboarding",
-        "Trend Analysis",
-        "KPI Reporting",
-        "Predictive Modeling"
+        { "name": "Data Cleaning", "image": "" },
+        { "name": "Data Wrangling", "image": "" },
+        { "name": "Dashboarding", "image": "" },
+        { "name": "Trend Analysis", "image": "" },
+        { "name": "KPI Reporting", "image": "" },
+        { "name": "Predictive Modeling", "image": "" }
       ]
     },
     {
       "category": "Soft Skills",
       "icon": "fas fa-users",
       "color": "#00f2fe",
+      "image": "",
       "skills": [
-        "Critical Thinking",
-        "Stakeholder Communication",
-        "Process Optimization",
-        "Cross-functional Collaboration",
-        "Team Mentoring"
+        { "name": "Critical Thinking", "image": "" },
+        { "name": "Stakeholder Communication", "image": "" },
+        { "name": "Process Optimization", "image": "" },
+        { "name": "Cross-functional Collaboration", "image": "" },
+        { "name": "Team Mentoring", "image": "" }
       ]
     }
   ]
