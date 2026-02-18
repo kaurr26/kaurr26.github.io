@@ -217,6 +217,11 @@ async function loadExperience() {
                         <i class="${exp.icon}"></i>
                     </div>
                     <div class="timeline-content">
+                        ${exp.logo ? `
+                            <div class="experience-logo">
+                                <img src="${exp.logo}" alt="${exp.company}" class="experience-logo-img">
+                            </div>
+                        ` : ''}
                         <div class="experience-header">
                             <h3 class="experience-title">${exp.title}</h3>
                             <p class="experience-company">
@@ -265,13 +270,24 @@ async function loadSkills() {
             skillsGrid.innerHTML = data.categories.map(category => `
                 <div class="skill-category">
                     <div class="skill-category-header">
-                        <div class="skill-category-icon" style="background: ${category.color}20; color: ${category.color}">
-                            <i class="${category.icon}"></i>
-                        </div>
+                        ${category.image ? `
+                            <div class="skill-category-icon-img">
+                                <img src="${category.image}" alt="${category.category}" class="skill-cat-img">
+                            </div>
+                        ` : `
+                            <div class="skill-category-icon" style="background: ${category.color}20; color: ${category.color}">
+                                <i class="${category.icon}"></i>
+                            </div>
+                        `}
                         <h3 class="skill-category-title">${category.category}</h3>
                     </div>
                     <div class="skill-list">
-                        ${category.skills.map(skill => `<span class="skill-tag">${skill}</span>`).join('')}
+                        ${category.skills.map(skill => `
+                            <span class="skill-tag">
+                                ${skill.image ? `<img src="${skill.image}" alt="${skill.name}" class="skill-tag-img">` : ''}
+                                ${skill.name || skill}
+                            </span>
+                        `).join('')}
                     </div>
                 </div>
             `).join('');
@@ -297,8 +313,13 @@ async function loadProjects() {
         if (projectsGrid && data.projects) {
             projectsGrid.innerHTML = data.projects.map(project => `
                 <div class="project-card">
-                    <div class="project-icon" style="background: ${project.color}">
-                        <i class="${project.icon}"></i>
+                    <div class="project-icon-wrapper">
+                        <div class="project-icon" style="background: ${project.color}">
+                            <i class="${project.icon}"></i>
+                        </div>
+                        ${project.image ? `
+                            <img src="${project.image}" alt="${project.title}" class="project-tech-img">
+                        ` : ''}
                     </div>
                     <div class="project-header">
                         <h3 class="project-title">${project.title}</h3>
@@ -359,14 +380,20 @@ async function loadEducation() {
         if (educationGrid && data.education) {
             educationGrid.innerHTML = data.education.map(edu => `
                 <div class="education-card">
-                    <div class="education-icon" style="background: ${edu.color}20; color: ${edu.color}">
-                        <i class="${edu.icon}"></i>
-                    </div>
+                    ${edu.logo ? `
+                        <div class="education-logo">
+                            <img src="${edu.logo}" alt="${edu.institution}" class="education-logo-img">
+                        </div>
+                    ` : `
+                        <div class="education-icon" style="background: ${edu.color}20; color: ${edu.color}">
+                            <i class="${edu.icon}"></i>
+                        </div>
+                    `}
                     <h3 class="education-degree">${edu.degree}</h3>
                     <p class="education-institution">${edu.institution}</p>
                     <p class="education-period">${edu.period}</p>
                     <p class="education-description">${edu.description}</p>
-                    ${edu.achievements ? `
+                    ${edu.achievements && edu.achievements.length > 0 ? `
                         <ul class="education-achievements">
                             ${edu.achievements.map(achievement => `<li>${achievement}</li>`).join('')}
                         </ul>
@@ -383,12 +410,18 @@ async function loadEducation() {
         if (certificationsGrid && data.certifications) {
             certificationsGrid.innerHTML = data.certifications.map(cert => `
                 <div class="certification-card">
-                    <div class="certification-icon" style="color: ${cert.color}">
-                        <i class="${cert.icon}"></i>
-                    </div>
-                    <h4 class="certification-title">${cert.title}</h4>
+                    ${cert.image ? `
+                        <div class="certification-image">
+                            <img src="${cert.image}" alt="${cert.issuer}" class="certification-img">
+                        </div>
+                    ` : `
+                        <div class="certification-icon" style="color: ${cert.color}">
+                            <i class="${cert.icon}"></i>
+                        </div>
+                    `}
+                    <h4 class="certification-title">${cert.name || cert.title}</h4>
                     <p class="certification-issuer">${cert.issuer}</p>
-                    <p class="certification-date">${cert.date}</p>
+                    ${cert.date ? `<p class="certification-date">${cert.date}</p>` : ''}
                 </div>
             `).join('');
         }
